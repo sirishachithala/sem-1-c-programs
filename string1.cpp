@@ -2,8 +2,19 @@
 #include<stdio.h>
 int main()
 {
-	char s1[50];
+	char s[50],i;
 	printf("enter a sentence:\n");
-	fgets(s1,sizeof(s1),stdin);
-	printf("%s",s1);
+	fgets(s,sizeof(s),stdin);
+	printf("words in a sentence are:\n");
+	for(i=0;s[i]!='\0';i++)
+	{
+		if(s[i]==' ')
+		{
+			printf("\n");
+		}
+		else
+		{
+			printf("%c",s[i]);
+		}
+	}
 }
