@@ -9,7 +9,7 @@ int main()
    printf("\n 2.string copy");
    printf("\n 3.string compare");
    printf("\n 4.string reverse");
-   printf("\n 5.string concatination");
+   printf("\n 5.string concatenation");
    printf("\n 6.string lower case");
    printf("\n 7.string upper case");
    printf("\nselect any option:");
